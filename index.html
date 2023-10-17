@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="bg-yellow-100 h-[50rem] ">
+
+        <!-- nav bar -->
+
+        
+            <nav class="bg-black h-[55px]  ">
+                <ul class="  font-light  text-white flex items-center space-x-3 px-2 ">
+                    <li class="flex font-semibold items-center "><img src="/logo.jpg" alt="Spotify" class=" h-[55px] w-[40px]">Spotify</li>
+                    <div class="text-sm flex space-x-3 ">
+                        <li>Home</li>
+                        <li>About</li>
+                    </div>
+                </ul>
+            </nav>
+        
+
+        <div class="container text-white pb-[5rem] bg-black flex mt-[23px] mb-[23px] m-auto w-10/12 p-5 rounded-2xl">
+            <div class="songlist ">
+                <p class="font-bold text-xl ">Study music</p>
+                <div class="flex">
+                    <div class="flex-col ">
+
+                        <!-- each div class is for each song in the song list -->
+
+
+                        <div class="songitem  flex justify-around mt-5 mx-12 mb-5 h-[6rem] w-[30rem] items-center bg-violet-900 rounded-2xl">
+                        <!-- <div class=" justify-between items-center m-8"> -->
+                            <img src="cover.jpg" alt="1" class="h-20 justify-center rounded-2xl">
+                            <!-- <img src="cover.jpg" alt="1" class="h-20 w-auto"> -->
+                            <span>Uzumaki Naruto </span>
+                            <span class="songlistplay"><span>05:34</span><i class="fa-solid fa-play-circle"></i></span>
+                        </div>
+
+                        <div class="songitem  flex justify-around mt-5 mx-12 mb-5 h-[6rem] w-[30rem] items-center bg-violet-900 rounded-2xl">
+                        <!-- <div class=" justify-between items-center m-8"> -->
+                            <img src="cover.jpg" alt="1" class="h-20 justify-center rounded-2xl">
+                            <!-- <img src="cover.jpg" alt="1" class="h-20 w-auto"> -->
+                            <span>Uzumaki Naruto </span>
+                            <span class="songlistplay"><span>05:34</span><i class="fa-solid fa-play-circle"></i></span>
+                        </div>
+                        <div class="songitem  flex justify-around mt-5 mx-12 mb-5 h-[6rem] w-[30rem] items-center bg-violet-900 rounded-2xl">
+                        <!-- <div class=" justify-between items-center m-8"> -->
+                            <img src="cover.jpg" alt="1" class="h-20 justify-center rounded-2xl">
+                            <!-- <img src="cover.jpg" alt="1" class="h-20 w-auto"> -->
+                            <span>Uzumaki Naruto </span>
+                            <span class="songlistplay"><span>05:34</span><i class="fa-solid fa-play-circle"></i></span>
+                        </div>
+                        <div class="songitem  flex justify-around mt-5 mx-12 mb-5 h-[6rem] w-[30rem] items-center bg-violet-900 rounded-2xl">
+                        <!-- <div class=" justify-between items-center m-8"> -->
+                            <img src="cover.jpg" alt="1" class="h-20 justify-center rounded-2xl">
+                            <!-- <img src="cover.jpg" alt="1" class="h-20 w-auto"> -->
+                            <span>Uzumaki Naruto </span>
+                            <span class="songlistplay"><span>05:34</span><i class="fa-solid fa-play-circle"></i></span>
+                        </div>
+                        
+
+                        
+
+                    </div>
+                    
+                    <!-- image at the right  -->
+
+                    <img src="bg3.jpg" alt="" class="h-[35rem]  mx-[15rem] pb-[30 px]   ">
+                </div>
+            </div>
+            <div class="songbanner">
+            </div>
+        </div>
+
+        <!-- justify - left and right 
+        items - up and down  -->
+
+        <!-- flex-col - make a box but stack them one below the other -->
+
+
+        <div class="bottom bg-black sticky h-32 flex items-center justify-center flex-col ">
+            <input type="range" name="range" id="myProgressBar" min="0" max="100" class="w-[80rem] h-30px ">
+            <div class="icon text-white text-4xl space-x-3 mt-[14px] cursor-pointer">
+                <!-- fontawesome icons  -->
+                <i class="fa-solid fa-step-backward"></i>
+                <i class="fa-solid fa-play-circle"></i>
+                <i class="fa-solid fa-step-forward"></i>
+                
+            </div>
+        </div>
+
+
+
+    </div>
+    <script src="https://kit.fontawesome.com/0fd451e2b7.js" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+</body>
+</html>
