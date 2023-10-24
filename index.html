@@ -7,59 +7,84 @@
     <title>Document</title>
 </head>
 <body>
-    <div class="bg-yellow-100 h-[50rem] ">
+    <div class="bg-yellow-100 ">
 
         <!-- nav bar -->
 
         
             <nav class="bg-black h-[55px]  ">
-                <ul class="  font-light  text-white flex items-center space-x-3 px-2 ">
+                <ul class="  font-light absolute text-white flex items-center space-x-3 px-2 ">
                     <li class="flex font-semibold items-center "><img src="/logo.jpg" alt="Spotify" class=" h-[55px] w-[40px]">Spotify</li>
                     <div class="text-sm flex space-x-3 ">
                         <li>Home</li>
                         <li>About</li>
+                        <!-- <li><a href="test.html">hello</a></li> well chuck this-->
                     </div>
                 </ul>
             </nav>
         
 
-        <div class="container text-white pb-[5rem] bg-black flex mt-[23px] mb-[23px] m-auto w-10/12 p-5 rounded-2xl">
+        <div class="container text-white pb-[5rem] bg-black  mt-[23px] mb-[23px] m-auto w-10/12 p-5 rounded-2xl">
             <div class="songlist ">
-                <p class="font-bold text-xl ">Study music</p>
-                <div class="flex">
+                <p class="font-bold text-6xl px-12 pt-10  ">Anime Music</p>
+                <div class="flex py-20">
                     <div class="flex-col ">
 
                         <!-- each div class is for each song in the song list -->
 
+                        <!-- NOTE : NOW THAT YOU ARE USING THE JAVASCRIPT LOGIC TO UPDATE SONG NAMES AND COVER IMAGES
+                        YOU DONT NEED TO USE THE IMG SRC FOR DISPLAYING IMAGES VIA HTML AS GIVEN BELOW , YOU CAN REMOVE THEM  -->
+
+                        <div class="songitem  flex  justify-around mt-5 mx-12 mb-5 h-[6rem] w-[30rem] items-center bg-violet-900 rounded-2xl">
+                        <!-- <div class=" justify-between items-center m-8"> -->
+
+                            <!-- I HAVE REMOVED SRC FOR THIS DIV CLASS FOR AN EXAMPLE -->
+
+                            <img src="" alt="1" class="h-20 relative right-3 w-[120px]   justify-center rounded-2xl">    
+                            <!-- <img src="cover.jpg" alt="1" class="h-20 w-auto"> -->
+                            <span class="songName">Uzumaki Naruto </span>
+                            <span class="songlistplay"><span class="timestamp">05:34<i  id="0" class="fa-solid fa-play-circle   songItemPlay cursor-pointer"></i></span></span>
+                        </div>
 
                         <div class="songitem  flex justify-around mt-5 mx-12 mb-5 h-[6rem] w-[30rem] items-center bg-violet-900 rounded-2xl">
                         <!-- <div class=" justify-between items-center m-8"> -->
-                            <img src="cover.jpg" alt="1" class="h-20 justify-center rounded-2xl">
+                            <img src="covers/1cover.jpg" alt="1" class="h-20 w-[120px] justify-center rounded-2xl">
                             <!-- <img src="cover.jpg" alt="1" class="h-20 w-auto"> -->
-                            <span>Uzumaki Naruto </span>
-                            <span class="songlistplay"><span>05:34</span><i class="fa-solid fa-play-circle"></i></span>
+                            <span class="songName">Uzumaki Naruto </span>
+                            <span class="songlistplay"><span class="timestamp">05:34<i  id="1" class="fa-solid fa-play-circle   songItemPlay cursor-pointer"></i></span></span>
                         </div>
 
                         <div class="songitem  flex justify-around mt-5 mx-12 mb-5 h-[6rem] w-[30rem] items-center bg-violet-900 rounded-2xl">
                         <!-- <div class=" justify-between items-center m-8"> -->
-                            <img src="cover.jpg" alt="1" class="h-20 justify-center rounded-2xl">
+                            <img src="covers/1cover.jpg" alt="1" class="h-20 w-[120px] justify-center rounded-2xl">
                             <!-- <img src="cover.jpg" alt="1" class="h-20 w-auto"> -->
-                            <span>Uzumaki Naruto </span>
-                            <span class="songlistplay"><span>05:34</span><i class="fa-solid fa-play-circle"></i></span>
+                            <span class="songName">Uzumaki Naruto </span>
+                            <span class="songlistplay"><span class="timestamp">05:34<i id="2"  class="fa-solid fa-play-circle   songItemPlay cursor-pointer"></i></span></span>
                         </div>
+
                         <div class="songitem  flex justify-around mt-5 mx-12 mb-5 h-[6rem] w-[30rem] items-center bg-violet-900 rounded-2xl">
                         <!-- <div class=" justify-between items-center m-8"> -->
-                            <img src="cover.jpg" alt="1" class="h-20 justify-center rounded-2xl">
+                            <img src="covers/1cover.jpg" alt="1" class="h-20 w-[120px] justify-center rounded-2xl">
                             <!-- <img src="cover.jpg" alt="1" class="h-20 w-auto"> -->
-                            <span>Uzumaki Naruto </span>
-                            <span class="songlistplay"><span>05:34</span><i class="fa-solid fa-play-circle"></i></span>
+                            <span class="songName">Uzumaki Naruto </span>
+                            <span class="songlistplay"><span class="timestamp">05:34<i  id="3" class="fa-solid fa-play-circle  songItemPlay  cursor-pointer"></i></span></span>
                         </div>
+
+
                         <div class="songitem  flex justify-around mt-5 mx-12 mb-5 h-[6rem] w-[30rem] items-center bg-violet-900 rounded-2xl">
-                        <!-- <div class=" justify-between items-center m-8"> -->
-                            <img src="cover.jpg" alt="1" class="h-20 justify-center rounded-2xl">
-                            <!-- <img src="cover.jpg" alt="1" class="h-20 w-auto"> -->
-                            <span>Uzumaki Naruto </span>
-                            <span class="songlistplay"><span>05:34</span><i class="fa-solid fa-play-circle"></i></span>
+                            <!-- <div class=" justify-between items-center m-8"> -->
+                                <img src="covers/1cover.jpg" alt="1" class="h-20 w-[120px] justify-center rounded-2xl">
+                                <!-- <img src="cover.jpg" alt="1" class="h-20 w-auto"> -->
+                                <span class="songName">Uzumaki Naruto </span>
+                                <span class="songlistplay"><span class="timestamp">05:34<i id="4"  class="fa-solid fa-play-circle   songItemPlay cursor-pointer"></i></span></span>
+                        </div>
+
+                        <div class="songitem  flex justify-around mt-5 mx-12 mb-3 h-[6rem] w-[30rem] items-center bg-violet-900 rounded-2xl">
+                            <!-- <div class=" justify-between items-center m-8"> -->
+                                <img src="covers/1cover.jpg" alt="1" class="h-20 relative right-1 w-[120px] justify-center rounded-2xl">
+                                <!-- <img src="cover.jpg" alt="1" class="h-20 w-auto"> -->
+                                <span class="songName">Uzumaki Naruto </span>
+                                <span class="songlistplay"><span class="timestamp">05:34<i  id="5" class="fa-solid fa-play-circle songItemPlay  cursor-pointer"></i></span></span>
                         </div>
                         
 
@@ -68,11 +93,11 @@
                     </div>
                     
                     <!-- image at the right  -->
-
-                    <img src="bg3.jpg" alt="" class="h-[35rem]  mx-[15rem] pb-[30 px]   ">
-                </div>
+                        <img src="bg3.jpg" alt="" class="h-[35rem]  mx-[15rem]  ">
+                </div> 
             </div>
             <div class="songbanner">
+                <img src="" alt="">
             </div>
         </div>
 
@@ -82,20 +107,24 @@
         <!-- flex-col - make a box but stack them one below the other -->
 
 
-        <div class="bottom bg-black sticky h-32 flex items-center justify-center flex-col ">
-            <input type="range" name="range" id="myProgressBar" min="0" max="100" class="w-[80rem] h-30px ">
+    
+   
+        <div class=" bg-black  h-32 flex items-center justify-center flex-col  ">
+            <input type="range" name="range" id="myProgressBar" min="0" max="100" value="0" class="w-[100rem] h-30px cursor-pointer ">
             <div class="icon text-white text-4xl space-x-3 mt-[14px] cursor-pointer">
                 <!-- fontawesome icons  -->
-                <i class="fa-solid fa-step-backward"></i>
-                <i class="fa-solid fa-play-circle"></i>
-                <i class="fa-solid fa-step-forward"></i>
-                
+                <i class="fa-solid fa-step-backward" id="previous"></i>
+                <i class="fa-solid fa-play-circle " id="masterPlay"></i>
+                <i class="fa-solid fa-step-forward" id="next"></i>
+            </div>
+            <div class="songinfo text-white mt-4 flex relative right-[45rem] bottom-[40px]">
+                <img src="playing.gif" alt="" id="gif" class="h-6 opacity-0 transition ease-in duration-0.4  "> <span id="masterSongName">Uzumaki naruto</span>
             </div>
         </div>
 
-
-
     </div>
+
+    
     <script src="https://kit.fontawesome.com/0fd451e2b7.js" crossorigin="anonymous"></script>
     <script src="script.js"></script>
 </body>
